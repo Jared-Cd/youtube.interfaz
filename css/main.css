@@ -1,0 +1,224 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: #0f0f0f;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 12px;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-menu-container ul li{
+    display: flex;
+    align-items: center;
+}
+.search-input-container{
+    display: flex;
+}
+.search-input-container input{
+    border-radius: 50px 0% 0% 50px;
+    border:0px;
+    width: 400px;
+}
+.search-input-container button{
+    border-radius: 0px 50px 50px 0px;
+}
+.sub-menu{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.sub-menu li{
+    list-style: none;
+    padding: 10px;
+}
+.sub-menu li button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+.icon-menu{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-youtube{
+    width: 6rem;
+    display: inline-block;
+}
+.sub-menu li .avatar-icon{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    color:white;
+}
+.body-container{
+    display: flex;
+    position: fixed;
+    height: 60px;
+    top: 60px;
+}
+.sidebar{
+    align-items: center;
+    background-color: #212121;
+    padding-top: 10px;
+    width: 240px;
+    color: #fff;
+}
+.sidebar a{
+    text-decoration: none;
+    color: #fff;
+}
+.sidebar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0px;
+    flex-direction: column;
+}
+.icon-home{
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    display: inline-block;
+}
+.icon-short{
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    display: inline-block;
+}
+.icon-subs{
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    display: inline-block;
+}
+.sidebar li button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+.sidebar li .avatar-icon{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    color:white;
+}
+.sidebar li .avatar-iconone{
+    width: 40px;
+    height: 40px;
+    background-color: greenyellow;
+    color:white;
+    top: 100px;
+}
+.sidebar li .avatar-icontwo{
+    width: 40px;
+    height: 40px;
+    background-color: gold;
+    color:white;
+}
+.sub-sidebar{
+    list-style: none;
+    padding: 10px;
+}
+.abuelo{
+    width: 1000px;
+    height: 43px;
+    background-color: transparent;
+    position: relative;
+    left: 274px;
+}
+.block{
+    position: absolute;
+    color:white;
+    align-items: center;
+    display: inline-block;
+    background-color: transparent;
+}
+.card-text{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    top: 0;
+}
+.one{
+    width: 70px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.1);
+    top: 4px;
+    left: 10px;
+    z-index: 2;
+    border-radius: 12%;
+}
+.two{
+    width: 250px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.1);
+    top: 4px;
+    left: 95px;
+    z-index: 1;
+    border-radius: 6%;
+}
+.three{
+    width: 220px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.1);
+    top: 4px;
+    left: 360px;
+    border-radius: 7%;
+}
+.four{
+    width: 70px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.1);
+    top: 4px;
+    left: 595px;
+    border-radius: 20%;
+}
+.five{
+    width: 100px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.1);
+    top: 4px;
+    left: 680px;
+    border-radius: 16%;
+}
+.six{
+    width: 170px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.1);
+    top: 4px;
+    left: 795px;
+    border-radius: 19%;
+}
+
